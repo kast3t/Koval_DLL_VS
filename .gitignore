@@ -1,4 +1,8 @@
-bin/
-obj/
+Debug/
+Release/
+.vs/
 *.depend
 *.layout
+*.sln
+*.vcxproj
+*.vcxproj.*
