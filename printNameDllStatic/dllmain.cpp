@@ -19,6 +19,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 }
 
 void __stdcall printName(char *buff) {
+    // Добавлен ещё один новый комментарий в ветке experiment
     char fio[]{ "Коваль Константин Александрович" };
     strncpy_s(buff, 32, fio, 32);
 }
