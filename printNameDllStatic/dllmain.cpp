@@ -18,7 +18,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     return TRUE;
 }
 
-void __stdcall printName(char *buf) {
+void __stdcall printName(char *buff) {
     char fio[]{ "Коваль Константин Александрович" };
-    strncpy_s(buf, 32, fio, 32);
+    strncpy_s(buff, 32, fio, 32);
 }
